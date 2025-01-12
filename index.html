@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>NFT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Не упусти возможность войти в прибыльную нишу! Получи все нужные навыки для заработка на NFT всего за 28 дней!">
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./public/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon/favicon-16x16.png">
+</head>
+<body>
+<div class="blur"></div>
+<div class="modal" id="modal">
+    <div class="modal__circle"></div>
+    <div class="modal__close-container" id="modal-close">
+        <div class="modal__close">
+            <img src="./public/icons/close.svg" alt="Закрыть">
+        </div>
+    </div>
+    <h3 class="modal__title">Начни прямо сейчас!</h3>
+    <p class="modal__subtitle">Получи все нужные навыки для заработка на NFT всего за 28 дней!</p>
+    <form action="#" class="modal__form">
+        <input type="email" class="modal__input" placeholder="Ваш email" id="email">
+        <button type="button" class="modal__btn btn btn_modal" id="submit">Оплатить</button>
+    </form>
+</div>
+<section class="main" id="main">
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__logo logo" id="logo">
+                <a href="#"><img src="./public/images/logo.png" alt="Логотип NFT"></a>
+            </div>
+            <nav class="header__menu menu" id="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#main" class="menu__link">Главная</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#advantages" class="menu__link">Что даст обучение</a>
+                    </li>
+                    <li class="menu__item">
+                        <button class="menu__btn btn btn_transparent" id="account">Личный кабинет</button>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger-container" id="burger-container">
+                <div class="burger"></div>
+            </div>
+        </div>
+    </header>
+    <div class="main__container container">
+        <div class="main__bg">
+            <div class="main__bg-circle1"></div>
+            <div class="main__bg-circle2"></div>
+        </div>
+        <div class="main__info">
+            <h1 class="main__title">Не упусти возможность войти в <span>прибыльную нишу</span></h1>
+            <div class="main__images">
+                <div class="main__circle"></div>
+                <img class="main__img" id="main-img1" src="./public/images/main_image1.png"
+                     alt="Весёлые значки со свинкой">
+                <img class="main__img" id="main-img2" src="./public/images/main_image2.png"
+                     alt="Весёлые значки с мешком с деньгами">
+                <img class="main__img" id="main-img3" src="./public/images/main_image3.png" alt="Мужчина">
+                <img class="main__img" id="main-img" src="./public/images/main_image.png"
+                     alt="Мужчина c весёлыми значками">
+            </div>
+            <p class="main__subtitle">Получи все нужные навыки для заработка на NFT всего за 28 дней!</p>
+            <button class="main__btn btn" id="main-btn">Начать зарабатывать на NFT</button>
+        </div>
+    </div>
+</section>
+<section class="advantages" id="advantages">
+    <div class="advantages__container container">
+        <div class="advantages__circle_violet"></div>
+        <div class="advantages__inner-container">
+        <div class="advantages__bg">
+            <div class="advantages__bg-circle1"></div>
+            <div class="advantages__bg-circle2"></div>
+        </div>
+        <div class="advantages__images">
+            <div class="advantages__circle_blue"></div>
+            <div class="advantages__circle_blurred"></div>
+        </div>
+        <h2 class="advantages__title title">Что даст тебе обучение?</h2>
+        <div class="advantages__wrapper">
+            <div class="advantages__item advantages-item">
+                <div class="advantages-item__image" id="smile-stars">
+                    <img src="./public/images/smile_stars.png" alt="Смайлик с глазами-звёздами">
+                </div>
+                <div class="advantages-item__text">Откроешь свой первый криптокошелек и научишься с ним работать</div>
+            </div>
+            <div class="advantages__item advantages-item">
+                <div class="advantages-item__image" id="smile-tongue">
+                    <img src="./public/images/smile_tongue.png" alt="Смайлик, показывающий язык">
+                </div>
+                <div class="advantages-item__text">Поймёшь, как выбирать правильные дропы</div>
+            </div>
+            <div class="advantages__item advantages-item">
+                <div class="advantages-item__image" id="smile-dollars">
+                    <img src="./public/images/smile_dollars.png" alt="Смайлик с глазами-долларами">
+                </div>
+                <div class="advantages-item__text">Построишь план<br> по быстрому приумножению заработанных средств
+                </div>
+            </div>
+            <div class="advantages__item advantages-item">
+                <div class="advantages-item__image" id="smile-glasses">
+                    <img src="./public/images/smile_glasses.png" alt="Смайлик в тёмных очках">
+                </div>
+                <div class="advantages-item__text">Узнаешь кто такие<br> холдеры и флипперы</div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<div class="loader" id="loader">
+    <div class="lds-ripple">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<script src="jquery.min.js"></script>
+<script src="script.min.js"></script>
+</body>
